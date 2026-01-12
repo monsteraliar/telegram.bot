@@ -1,7 +1,7 @@
 import requests
 import time
 
-TOKEN = 7432590124:AAE2WaUxe-xjkQ7a9Biwk1YWkGU_pFSCj24"
+TOKEN = "GANTI_DENGAN_TOKEN_BARU"
 CHAT_ID = "303839054"
 
 URL = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
@@ -12,7 +12,8 @@ def send(msg):
         "text": msg
     })
 
-send("🤖 BOT ONLINE 24 JAM (RAILWAY)")
+send("🤖 BOT ONLINE 24 JAM (SERVER)")
 
 while True:
-    time.sleep(3600)
+    send("⏱ Bot masih hidup (server)")
+    time.sleep(3600)  # 1 jam
